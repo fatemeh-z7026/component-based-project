@@ -61,4 +61,4 @@ class Course extends HTMLElement {
   }
 }
 
-export { Course };
+export { Course }; 
