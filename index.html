@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/components/course/course.css" />
+    <title>Cake Time</title>
+  </head>
+  <body>
+    <site-header header-title="Book Store"></site-header>
+    <div class="courses-container">
+      <site-course title="Orange Cake" img-cover="image/orange-cake.jpg">
+        <span slot="students">11,012</span>
+        <span slot="teacher">Mahnaz</span>
+      </site-course>
+
+      <site-course title="Kiwi Cake" img-cover="image/kiwi-cake.jpg">
+        <span slot="students">11,512</span>
+        <span slot="teacher">Sepideh</span>
+      </site-course>
+
+      <site-course
+        title="Chocolate Cake"
+        img-cover="image/chocolate-cake.jpg"
+      >
+        <span slot="students">11,000</span>
+        <span slot="teacher">Fatemeh</span>
+      </site-course>
+    </div>
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>
